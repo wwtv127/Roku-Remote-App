@@ -78,6 +78,19 @@
             border-radius: 15px;
             text-align: center;
         }
+
+        /* Added style for the clickable link */
+        .contact-link {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--primary-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -106,7 +119,7 @@
         <h2>Support</h2>
         <div class="contact-box">
             <p>Need help with the app or have questions about your privacy?</p>
-            <p><strong>Contact:</strong> https://wwtv127.github.io/Wwtv-Support/</p>
+            <a href="https://wwtv127.github.io/Wwtv-Support/" class="contact-link">Contact Support</a>
         </div>
     </section>
 
